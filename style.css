@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* this is google font CSS */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header CSS */
+
+.primary-text-color {
+    color: #FD6E0A;
+}
+
+.btn-primary-color {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--dark-02, #474747);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.manu-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
